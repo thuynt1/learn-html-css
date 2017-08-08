@@ -1,0 +1,22 @@
+body {
+    font-family: Tahoma;
+    font-size: 11px;
+    margin: 0 auto;
+    width: 750px;
+}
+#wrap {
+
+}
+h1 {
+    text-align: center;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.decor {
+    color: blue;
+    text-decoration: underline;
+}
