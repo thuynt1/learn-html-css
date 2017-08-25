@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        body {
+            font-size: 13px;
+            color: #333333;
+            background-color: #ffffff;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", 'ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3', 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            width: 750px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+        }
+
+        header{
+            padding: 1em;
+            height: 212px;
+            background-image: url("../../img/Tuy_Duyen.jpg") ;
+            /*background-repeat: no-repeat;*/
+            background-size: cover;
+            width: 725px;
+            position: relative;
+        }
+
+        header img {
+            width: 10%;
+            height: 23%;
+            position: absolute;
+            bottom: 0px;
+            left: 5px;
+            border-radius: 50%;
+        }
+
+        header .name {
+            font-family: "Coronet";
+            font-size: 14px;
+            font-weight: 300;
+            color: #FFEB3B;
+            position: absolute;
+            bottom: 10px;
+            left: 86px
+        }
+
+        nav {
+            float: left;
+            width: 20%;
+            margin: 0;
+            padding: 1em;
+        }
+        nav ul li ul {
+            list-style: none;
+        }
+
+         a {
+            text-decoration: none;
+             color: #bdb9b9;
+             font-size: 15px;
+        }
+
+         .sub a:hover{
+             color: #3f7f00;
+         }
+
+        .info-form {
+            border-collapse: collapse;
+        }
+        article {
+            float: left;
+            max-width: 70%;
+            border-left: 1px solid #ddd;
+            padding: 1em;
+        }
+        footer {
+            padding: 1em;
+            color: white;
+            background-color: #ddd;
+            clear: left;
+            text-align: center;
+        }
+         div .row {
+            display: table-row;
+        }
+        div .cell {
+            display: table-cell;
+            border: #969696 solid 1px;
+            line-height: 20px;
+            padding-left: 10px;
+        }
+        .cell label {
+            display: table-header-group;
+            color:#56a8ff ;
+            font-weight: 300;
+            font-size: 15px;
+        }
+        .cell ul {
+            list-style: none;
+        }
+        .row .cell:first-child, .footer .cell:first-child {
+            width: 150px;
+            background: #f3f0f0;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <div class="avatar">
+            <img src="../../img/Emma-Watson-via-Popsugar.jpg" align="avatar"/>
+            <i class="name">Nguyen Thi Thuy</i>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="sup">Các kênh liên lạc
+                <ul>
+                    <li class="sub"><a href="#">Facebook</a></li>
+                    <li class="sub"><a href="#">Zalo</a></li>
+                    <li class="sub"><a href="#">Skype</a></li>
+                </ul>
+            </li>
+            <li>Thông tin chi tiết</li>
+            <li>Thông tin ngoài </li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Thông tin có thể tiết lộ!</h1>
+        <div class="info-form">
+            <div class="row">
+                <div class="cell">
+                    <label>Họ và tên</label>
+                </div>
+                <div class="cell">
+                    Nguyễn Thị Thuỷ
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <label>Ngày sinh</label>
+                </div>
+                <div class="cell">26/02/1990</div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <label>Địa chỉ</label>
+                </div>
+                <div class="cell">Km10 - Nguyễn Trãi - Hà Đông - Hà Nội</div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <label>Email</label>
+                </div>
+                <div class="cell">thuynt1@nal.vn</div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <label>Số điện thoại</label>
+                </div>
+                <div class="cell">0123456789</div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <label>Sở thích</label>
+                </div>
+                <div class="cell">
+                    Mình có vẻ rất nhiều sở thích và đây là một số thứ nổi trội:
+                    <ul>
+                        <li>Thích nấu và ăn những món không phải mình làm.</li>
+                        <li>Thích câu cá.</li>
+                        <li>Thích lang thang mua đồ một mình.</li>
+                        <li>Thích đọc sách có nội dung hài hước.</li>
+                    </ul>
+                    Tóm lại là mình hích rất nhiều và ghét cũng khá khá.
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <label>Gia đình</label>
+                </div>
+                <div class="cell">Gia đình có rất nhiều thành viên con số lên tới 9 người, ai cũng thân thiện dễ mến hết :))</div>
+            </div>
+        </div>
+    </article>
+
+    <footer>Copyright &copy; nal.com</footer>
+
+</div>
+
+</body>
+</html>
