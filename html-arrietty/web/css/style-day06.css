@@ -4,27 +4,33 @@ body {
     background-color: #ffffff;
     font-family: 'Time';
 }
+
 .container {
     width: 100%;
     margin: 0 auto;
 }
+
 main {
-    width: 80%;
     margin: 0 auto;
-    padding: 16px 40px;
 }
+
 header {
-    width: 80%;
     margin: 0 auto;
+    background: #eaf2ff;
+    position: sticky;
+    top: 0px;
 }
+
 .logo {
     float: left;
     margin-left: 100px;
     position: relative;
 }
+
 .logo img {
     width: 100px;
 }
+
 .top {
     background: #698df3;
     padding-top: 25px;
@@ -32,19 +38,23 @@ header {
     color: white;
     font-size: 20px;
 }
+
 .author {
     display: inline-block;
     margin-left: 75%;
 }
+
 .top i:first-child {
     float: right;
     margin-right: 265px;
 }
+
 .menu {
     float: right;
     margin-right: 115px;
     margin-top: 40px;
 }
+
 .menu a {
     display: inline-block;
     margin-right: 10px;
@@ -52,45 +62,67 @@ header {
     border-right: 2px solid black;
     font-size: 15px;
 }
-.menu a:last-child{
+
+.menu a:last-child {
     border: none;
 }
+
 section {
     width: 80%;
     margin: 0 auto;
 }
+
 article {
     width: 29%;
     float: left;
-    margin-right: 32px;
-    margin-top: 30px;
+    margin: 30px 10px;
     font-family: 'Kalam';
 }
+
 article a {
-    font-size: 20px;
+    font-family: Tahoma;
+    font-size: 15px;
     font-weight: 600;
 }
+
 article img {
     width: 280px;
 }
+
 .clear-float {
     clear: both;
 }
+
 footer {
     font-size: 15px;
-    width: 80%;
     margin: 0 auto;
     color: white;
     text-align: center;
     background: #698df3;
     line-height: 40px;
 }
+
 .title-logo {
     display: inline-block;
     font-weight: 600;
     font-size: 30px;
     position: absolute;
     top: 40px;
-    left:100px;
+    left: 100px;
     width: 200px;
+}
+
+.scross {
+    position: fixed;
+    right: 1%;
+    bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 14px;
+    padding: 0 10px;
+    font-size: 15px;
+    background: #dce2f3;
+}
+
+.scross i {
+    font-size: 20px;
 }
